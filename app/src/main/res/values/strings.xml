@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular_movies">Popular movies</string>
+    <string name="source_poster_transition">source_poster_transition</string>
+    <string name="destination_poster_transition">destination_poster_transition</string>
+    <string name="source_title_transition">source_title_transition</string>
+    <string name="destination_title_transition">destination_title_transition</string>
+    <string name="movies_loading_error">Failed to load movies</string>
+    <string name="favorites_loading_error">Failed to load favorites</string>
+    <string name="retry">Try again</string>
+    <string name="movies">Movies</string>
+    <string name="favorites">Favorites</string>
+    <string name="trailers_not_found">No trailers we\'re found</string>
+    <string name="actors_not_found">No actors we\'re found</string>
+</resources>

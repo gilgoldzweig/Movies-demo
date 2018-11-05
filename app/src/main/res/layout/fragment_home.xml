@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_fragment_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gilgoldzweig.movies.fragments.movies.MoviesFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/home_fragment_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_white_1000"
+        android:elevation="4dp"
+        app:title="@string/popular_movies"
+        app:titleTextColor="@color/md_white_1000" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/home_fragment_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:elevation="4dp"
+        android:elevation="4dp"
+        android:background="@color/md_white_1000"
+        app:menu="@menu/home_menu"
+        android:layout_marginTop="@dimen/_4sdp"/>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/home_fragment_navigation_host"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/home_fragment_toolbar"
+        android:layout_above="@id/home_fragment_bottom_navigation"
+        />
+
+</RelativeLayout>
